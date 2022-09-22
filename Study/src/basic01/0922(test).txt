@@ -1,0 +1,26 @@
+1. 1 // String의 초기값을 설정해야 함
+2. 2
+3. 2,4
+4. 
+
+package basic04;
+
+public class MyClass {
+	
+	private int var; << 생성
+
+	public static void main ( String [] args ) {
+
+        MyClass my = new MyClass(); << new 붙이기
+
+        my.var = 1000;
+
+        System.out.println( my. var );
+
+  }
+	
+}
+
+
+5. 메소드 이름을 변경 (애초에 오버로딩 불가)
+6. this 의 위치 변경??
